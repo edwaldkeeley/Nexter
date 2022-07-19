@@ -33,11 +33,20 @@
 }
 
 .copyright {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: $color-grey-light-2;
     margin-top: 6rem;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
     width: 70%;
+
+    &__img {
+        font-size: 10px;
+        transform: translateX(13rem);
+        text-align: center;
+
+        
+        width: 70%;
+    }
 }
