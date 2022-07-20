@@ -43,10 +43,14 @@
 
     &__img {
         font-size: 10px;
-        transform: translateX(13rem);
+        transform: translateX(37rem);
         text-align: center;
 
-        
-        width: 70%;
+        width: 30%;
+
+        @media (max-width: 768px) {
+            transform: translateX(8rem);
+            width: 60%;
+        }
     }
 }
